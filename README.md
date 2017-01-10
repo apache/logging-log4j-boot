@@ -78,6 +78,6 @@ implicitly dependent on log4j-boot-core. All modules depend on log4j-api.
 * layout-yaml
   - com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
 * script-groovy
-  - org.codehaus.groovy:(?)
+  - org.codehaus.groovy:groovy
 
 [boot-jira]: https://issues.apache.org/jira/browse/LOG4J2-1775

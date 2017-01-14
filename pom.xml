@@ -28,10 +28,42 @@
     <artifactId>apache</artifactId>
     <version>18</version>
   </parent>
+
   <groupId>org.apache.logging.log4j.boot</groupId>
   <artifactId>log4j-boot-parent</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+
+  <name>Apache Log4j Boot</name>
+  <description>
+    Log4j Boot is a collection of dependency management modules for Maven- and Ivy-compatible dependency management
+    systems. These modules provide necessary third party dependencies for various extra plugins for Log4j 2.x including
+    compatibility APIs.
+  </description>
+  <url>https://logging.apache.org/log4j/boot/</url>
+
+  <properties>
+    <log4jVersion>2.7.1-SNAPSHOT</log4jVersion>
+    <slf4jVersion>1.7.22</slf4jVersion>
+    <activemqVersion>5.14.1</activemqVersion>
+    <cassandraVersion>3.1.0</cassandraVersion>
+    <compressVersion>1.13</compressVersion>
+    <conversantVersion>1.2.10</conversantVersion>
+    <couchdbVersion>0.0.6</couchdbVersion>
+    <csvVersion>1.4</csvVersion>
+    <disruptorVersion>3.3.6</disruptorVersion>
+    <groovyVersion>2.4.8</groovyVersion>
+    <jacksonVersion>2.8.6</jacksonVersion>
+    <jansiVersion>1.14</jansiVersion>
+    <javamailVersion>1.5.6</javamailVersion>
+    <jctoolsVersion>1.2.1</jctoolsVersion>
+    <jeromqVersion>0.3.6</jeromqVersion>
+    <jmdnsVersion>3.5.1</jmdnsVersion>
+    <logbackVersion>1.1.8</logbackVersion>
+    <kafkaVersion>0.10.1.1</kafkaVersion>
+    <mongodbVersion>3.4.1</mongodbVersion>
+  </properties>
+
   <modules>
     <module>core</module>
     <module>async</module>
@@ -60,26 +92,37 @@
     <module>script/groovy</module>
   </modules>
 
-  <properties>
-    <log4jVersion>2.7.1-SNAPSHOT</log4jVersion>
-    <slf4jVersion>1.7.22</slf4jVersion>
-    <activemqVersion>5.14.1</activemqVersion>
-    <cassandraVersion>3.1.0</cassandraVersion>
-    <compressVersion>1.13</compressVersion>
-    <conversantVersion>1.2.10</conversantVersion>
-    <couchdbVersion>0.0.6</couchdbVersion>
-    <csvVersion>1.4</csvVersion>
-    <disruptorVersion>3.3.6</disruptorVersion>
-    <groovyVersion>2.4.8</groovyVersion>
-    <jacksonVersion>2.8.6</jacksonVersion>
-    <jansiVersion>1.14</jansiVersion>
-    <javamailVersion>1.5.6</javamailVersion>
-    <jctoolsVersion>1.2.1</jctoolsVersion>
-    <jeromqVersion>0.3.6</jeromqVersion>
-    <jmdnsVersion>3.5.1</jmdnsVersion>
-    <logbackVersion>1.1.8</logbackVersion>
-    <kafkaVersion>0.10.1.1</kafkaVersion>
-    <mongodbVersion>3.4.1</mongodbVersion>
-  </properties>
+  <scm>
+    <connection>scm:git:git://git.apache.org/logging-log4j-boot.git</connection>
+    <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/logging-log4j-boot.git</developerConnection>
+    <url>https://git-wip-us.apache.org/repos/asf?p=logging-log4j-boot.git</url>
+  </scm>
+
+  <mailingLists>
+    <mailingList>
+      <name>log4j-user</name>
+      <subscribe>log4j-user-subscribe@logging.apache.org</subscribe>
+      <unsubscribe>log4j-user-unsubscribe@logging.apache.org</unsubscribe>
+      <post>log4j-user@logging.apache.org</post>
+      <archive>https://lists.apache.org/list.html?log4j-user@logging.apache.org</archive>
+      <otherArchives>
+        <otherArchive>http://mail-archives.apache.org/mod_mbox/logging-log4j-user/</otherArchive>
+        <otherArchive>http://marc.info/?l=log4j-user</otherArchive>
+        <otherArchive>http://dir.gmane.org/gmane.comp.jakarta.log4j.user</otherArchive>
+      </otherArchives>
+    </mailingList>
+    <mailingList>
+      <name>log4j-dev</name>
+      <subscribe>log4j-dev-subscribe@logging.apache.org</subscribe>
+      <unsubscribe>log4j-dev-unsubscribe@logging.apache.org</unsubscribe>
+      <post>log4j-dev@logging.apache.org</post>
+      <archive>https://lists.apache.org/list.html?log4j-dev@logging.apache.org</archive>
+      <otherArchives>
+        <otherArchive>http://mail-archives.apache.org/mod_mbox/logging-log4j-dev/</otherArchive>
+        <otherArchive>http://marc.info/?l=log4j-dev</otherArchive>
+        <otherArchive>http://dir.gmane.org/gmane.comp.jakarta.log4j.devel</otherArchive>
+      </otherArchives>
+    </mailingList>
+  </mailingLists>
 
 </project>

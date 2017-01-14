@@ -43,6 +43,8 @@
   <url>https://logging.apache.org/log4j/boot/</url>
 
   <properties>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
     <log4jVersion>2.7.1-SNAPSHOT</log4jVersion>
     <slf4jVersion>1.7.22</slf4jVersion>
     <activemqVersion>5.14.1</activemqVersion>
@@ -62,6 +64,7 @@
     <logbackVersion>1.1.8</logbackVersion>
     <kafkaVersion>0.10.1.1</kafkaVersion>
     <mongodbVersion>3.4.1</mongodbVersion>
+    <springbootVersion>1.4.3.RELEASE</springbootVersion>
   </properties>
 
   <modules>
@@ -90,6 +93,7 @@
     <module>layout/xml</module>
     <module>layout/yaml</module>
     <module>script/groovy</module>
+    <module>spring</module>
   </modules>
 
   <scm>

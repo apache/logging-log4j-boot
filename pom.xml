@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Licensed to the Apache Software Foundation (ASF) under one
+  ~ or more contributor license agreements.  See the NOTICE file
+  ~ distributed with this work for additional information
+  ~ regarding copyright ownership.  The ASF licenses this file
+  ~ to you under the Apache License, Version 2.0 (the
+  ~ "License"); you may not use this file except in compliance
+  ~ with the License.  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing,
+  ~ software distributed under the License is distributed on an
+  ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  ~ KIND, either express or implied.  See the License for the
+  ~ specific language governing permissions and limitations
+  ~ under the License.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.apache.logging.log4j.boot</groupId>
+  <artifactId>log4j-boot-parent</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>core</module>
+    <module>async</module>
+    <module>compat</module>
+    <module>logback</module>
+    <module>advertiser/jmdns</module>
+    <module>appender/async-conversant</module>
+    <module>appender/async-jctools</module>
+    <module>appender/cassandra</module>
+    <module>appender/compress</module>
+    <module>appender/couchdb</module>
+    <module>appender/activemq</module>
+    <module>appender/jms</module>
+    <module>appender/jpa</module>
+    <module>appender/kafka</module>
+    <module>appender/mongodb</module>
+    <module>appender/smtp</module>
+    <module>appender/zeromq</module>
+    <module>config/json</module>
+    <module>config/yaml</module>
+    <module>layout/csv</module>
+    <module>layout/jansi</module>
+    <module>layout/json</module>
+    <module>layout/xml</module>
+    <module>layout/yaml</module>
+    <module>script/groovy</module>
+  </modules>
+
+  <properties>
+    <log4jVersion>2.7.1-SNAPSHOT</log4jVersion>
+    <slf4jVersion>1.7.22</slf4jVersion>
+    <activemqVersion>5.14.1</activemqVersion>
+    <cassandraVersion>3.1.0</cassandraVersion>
+    <compressVersion>1.13</compressVersion>
+    <conversantVersion>1.2.10</conversantVersion>
+    <couchdbVersion>0.0.6</couchdbVersion>
+    <csvVersion>1.4</csvVersion>
+    <disruptorVersion>3.3.6</disruptorVersion>
+    <groovyVersion>2.4.8</groovyVersion>
+    <jacksonVersion>2.8.6</jacksonVersion>
+    <jansiVersion>1.14</jansiVersion>
+    <javamailVersion>1.5.6</javamailVersion>
+    <jctoolsVersion>1.2.1</jctoolsVersion>
+    <jeromqVersion>0.3.6</jeromqVersion>
+    <jmdnsVersion>3.5.1</jmdnsVersion>
+    <logbackVersion>1.1.8</logbackVersion>
+    <kafkaVersion>0.10.1.1</kafkaVersion>
+    <mongodbVersion>3.4.1</mongodbVersion>
+  </properties>
+
+</project>

@@ -135,7 +135,8 @@ public class Log4jLoggingSystem extends AbstractLoggingSystem {
 
     @Override
     protected void loadConfiguration(final LoggingInitializationContext context, final String location,
-                                     final LogFile file) {
+                                     final LogFile ignored) {
+        // log file name is available via ${sys:LOG_FILE} (see log4j2-file.xml default config)
         final URI configLocation = NetUtils.toURI(location);
         loggerContext = (LoggerContext) LogManager.getContext(
             getClassLoader(), false, this, configLocation);

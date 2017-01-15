@@ -30,6 +30,11 @@
 
   <artifactId>log4j-boot-core</artifactId>
 
+  <name>Log4j Boot Core</name>
+  <description>
+    Log4j Boot Core provides Log4j 2 API and Log4j 2 Core without any optional dependencies.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>

@@ -55,22 +55,22 @@
 
     <menu name="&lt;i class='icon-star'&gt;&lt;/i&gt; Core Components">
       <item name="Core" href="/log4j-boot-core/index.html"/>
-      <item name="Logging API Implementations" href="/log4j-boot-compat/index.html"/>
-      <item name="Async Loggers" href="/log4j-boot-async/index.html"/>
+      <item name="Logging APIs" href="/log4j-boot-compat/index.html"/>
+      <item name="Async" href="/log4j-boot-async/index.html"/>
       <item name="Logback" href="/log4j-boot-logback/index.html"/>
     </menu>
 
     <menu name="&lt;i class='icon-search'&gt;&lt;/i&gt; Advertisers">
-      <item name="JMDNS" href="/log4j-boot-advertiser-jmdns/index.html"/>
+      <item name="jmDNS" href="/log4j-boot-advertiser-jmdns/index.html"/>
     </menu>
 
     <menu name="&lt;i class='icon-globe'&gt;&lt;/i&gt; Appenders">
       <item name="ActiveMQ" href="/log4j-boot-appender-activemq/index.html"/>
-      <item name="Async (Conversant)" href="/log4j-boot-appender-async-conversant/index.html"/>
-      <item name="Async (JCTools)" href="/log4j-boot-appender-async-jctools/index.html"/>
+      <item name="Conversant Async" href="/log4j-boot-appender-async-conversant/index.html"/>
       <item name="Cassandra" href="/log4j-boot-appender-cassandra/index.html"/>
       <item name="Compress" href="/log4j-boot-appender-compress/index.html"/>
       <item name="CouchDB" href="/log4j-boot-appender-couchdb/index.html"/>
+      <item name="JCTools Async" href="/log4j-boot-appender-async-jctools/index.html"/>
       <item name="JMS" href="/log4j-boot-appender-jms/index.html"/>
       <item name="JPA" href="/log4j-boot-appender-jpa/index.html"/>
       <item name="Kafka" href="/log4j-boot-appender-kafka/index.html"/>
@@ -86,7 +86,7 @@
 
     <menu name="&lt;i class='icon-file'&gt;&lt;/i&gt; Layouts">
       <item name="CSV" href="/log4j-boot-layout-csv/index.html"/>
-      <item name="JANSI" href="/log4j-boot-layout-jansi/index.html"/>
+      <item name="Jansi" href="/log4j-boot-layout-jansi/index.html"/>
       <item name="JSON" href="/log4j-boot-layout-json/index.html"/>
       <item name="XML" href="/log4j-boot-layout-xml/index.html"/>
       <item name="YAML" href="/log4j-boot-layout-yaml/index.html"/>

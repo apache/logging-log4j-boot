@@ -31,6 +31,11 @@
 
   <artifactId>log4j-boot-appender-kafka</artifactId>
 
+  <name>Log4j Boot Kafka Appender</name>
+  <description>
+    Log4j Boot Kafka Appender provides the necessary dependencies to configure an Apache Kafka appender.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

@@ -31,6 +31,12 @@
 
   <artifactId>log4j-boot-layout-jansi</artifactId>
 
+  <name>Log4j Boot Jansi Layout</name>
+  <description>
+    Log4j Boot Jansi Layout provides the necessary dependencies to support colored log messages in Microsoft Windows
+    environments using Jansi.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

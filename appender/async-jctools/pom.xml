@@ -31,6 +31,12 @@
 
   <artifactId>log4j-boot-appender-async-jctools</artifactId>
 
+  <name>Log4j Boot JCTools Async Appender</name>
+  <description>
+    Log4j Boot JCTools Async Appender provides the dependencies necessary to configure an AsyncAppender using the
+    JCTools library (MPSC).
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

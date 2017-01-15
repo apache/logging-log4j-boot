@@ -31,6 +31,12 @@
 
   <artifactId>log4j-boot-config-yaml</artifactId>
 
+  <name>Log4j Boot YAML Configuration</name>
+  <description>
+    Log4j Boot YAML Configuration provides the necessary dependencies to support the YAML Log4j configuration file
+    format using Jackson and SnakeYAML.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

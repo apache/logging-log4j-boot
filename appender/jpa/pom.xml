@@ -31,6 +31,12 @@
 
   <artifactId>log4j-boot-appender-jpa</artifactId>
 
+  <name>Log4j Boot JPA Appender</name>
+  <description>
+    Log4j Boot JPA Appender provides the necessary dependencies to configure a JPA appender. This uses the JPA API and
+    requires a JPA provider at runtime.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

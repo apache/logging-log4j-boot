@@ -31,6 +31,11 @@
 
   <artifactId>log4j-boot-layout-json</artifactId>
 
+  <name>Log4j Boot JSON Layout</name>
+  <description>
+    Log4j Boot JSON Layout provides the necessary dependencies to configure a JSON layout using Jackson.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

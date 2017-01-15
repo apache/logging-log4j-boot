@@ -31,6 +31,12 @@
 
   <artifactId>log4j-boot-appender-zeromq</artifactId>
 
+  <name>Log4j Boot ZeroMQ Appender</name>
+  <description>
+    Log4j Boot ZeroMQ Appender provides the necessary dependencies to configure a ZeroMQ appender using the JeroMQ
+    library.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

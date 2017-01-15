@@ -30,6 +30,11 @@
 
   <artifactId>log4j-boot-async</artifactId>
 
+  <name>Log4j Boot Async</name>
+  <description>
+    Log4j Boot Async provides the necessary dependencies to use AsyncLoggers based on the LMAX Disruptor library.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

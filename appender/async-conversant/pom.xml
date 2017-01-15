@@ -31,6 +31,12 @@
 
   <artifactId>log4j-boot-appender-async-conversant</artifactId>
 
+  <name>Log4j Boot Conversant Async Appender</name>
+  <description>
+    Log4j Boot Conversant Async Appender provides the necessary dependencies to configure an AsyncAppender using the
+    Conversant Disruptor library.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

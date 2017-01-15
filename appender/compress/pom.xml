@@ -31,6 +31,12 @@
 
   <artifactId>log4j-boot-appender-compress</artifactId>
 
+  <name>Log4j Boot Compress Appenders</name>
+  <description>
+    Log4j Boot Compress Appenders provides the necessary dependencies to configure rolling file appenders that compress
+    old log files into additional formats using Apache Commons Compress.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

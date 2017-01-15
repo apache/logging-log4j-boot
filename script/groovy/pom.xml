@@ -31,6 +31,12 @@
 
   <artifactId>log4j-boot-script-groovy</artifactId>
 
+  <name>Log4j Boot Groovy</name>
+  <description>
+    Log4j Boot Groovy provides Apache Groovy script support in configuration files. Groovy scripts can be used in many
+    configuration scenarios as an alternative to the built in JavaScript engine in the JDK.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

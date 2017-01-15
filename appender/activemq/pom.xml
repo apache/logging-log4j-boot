@@ -31,10 +31,22 @@
 
   <artifactId>log4j-boot-appender-activemq</artifactId>
 
+  <name>Log4j Boot ActiveMQ Appender</name>
+  <description>
+    Log4j Boot ActiveMQ Appender provides the necessary dependencies to configure a JmsAppender using Apache ActiveMQ
+    as a client.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>
       <artifactId>log4j-boot-core</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j.boot</groupId>
+      <artifactId>log4j-boot-appender-jms</artifactId>
       <version>1.0-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>

@@ -31,6 +31,12 @@
 
   <artifactId>log4j-boot-advertiser-jmdns</artifactId>
 
+  <name>Log4j Boot jmDNS Advertiser</name>
+  <description>
+    Log4j Boot jmDNS Advertiser provides the necessary dependencies to configure an advertiser based on jmDNS, a
+    Bonjour-compatible multicast DNS library.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

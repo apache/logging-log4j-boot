@@ -31,6 +31,12 @@
 
   <artifactId>log4j-boot-config-json</artifactId>
 
+  <name>Log4j Boot JSON Configuration</name>
+  <description>
+    Log4j Boot JSON Configuration provides the necessary dependencies to support the JSON Log4j configuration file
+    format using Jackson.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

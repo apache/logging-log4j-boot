@@ -31,6 +31,11 @@
 
   <artifactId>log4j-boot-appender-mongodb</artifactId>
 
+  <name>Log4j Boot MongoDB Appender</name>
+  <description>
+    Log4j Boot MongoDB Appender provides the necessary dependencies to configure a MongoDB appender.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

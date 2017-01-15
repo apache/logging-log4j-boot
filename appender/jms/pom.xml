@@ -31,6 +31,12 @@
 
   <artifactId>log4j-boot-appender-jms</artifactId>
 
+  <name>Log4j Boot JMS Appender</name>
+  <description>
+    Log4j Boot JMS Appender provides the necessary dependencies to configure a JMS appender. This only relies on the
+    JMS API and requires JMS to be configured via JNDI at runtime.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

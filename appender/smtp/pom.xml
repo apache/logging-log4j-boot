@@ -31,6 +31,11 @@
 
   <artifactId>log4j-boot-appender-smtp</artifactId>
 
+  <name>Log4j Boot SMTP Appender</name>
+  <description>
+    Log4j Boot SMTP Appender provides the necessary dependencies to configure an SMTP appender.
+  </description>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.logging.log4j.boot</groupId>

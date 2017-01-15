@@ -1,0 +1,4 @@
+Dummy file to prevent log message:
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+
+See PrebootConfigurationFactory.java

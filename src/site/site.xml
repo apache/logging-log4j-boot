@@ -1,0 +1,105 @@
+<!--
+  ~ Licensed to the Apache Software Foundation (ASF) under one
+  ~ or more contributor license agreements.  See the NOTICE file
+  ~ distributed with this work for additional information
+  ~ regarding copyright ownership.  The ASF licenses this file
+  ~ to you under the Apache License, Version 2.0 (the
+  ~ "License"); you may not use this file except in compliance
+  ~ with the License.  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing,
+  ~ software distributed under the License is distributed on an
+  ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  ~ KIND, either express or implied.  See the License for the
+  ~ specific language governing permissions and limitations
+  ~ under the License.
+  -->
+
+<project name="Log4j Boot"
+         xmlns="http://maven.apache.org/DECORATION/1.7.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.7.0 http://maven.apache.org/xsd/decoration-1.7.0.xsd">
+
+  <skin>
+    <groupId>org.apache.maven.skins</groupId>
+    <artifactId>maven-fluido-skin</artifactId>
+    <version>1.6</version>
+  </skin>
+
+  <custom>
+    <fluidoSkin>
+      <profile>pre-release</profile>
+      <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+      <gitHub>
+        <projectId>apache/logging-log4j-boot</projectId>
+      </gitHub>
+    </fluidoSkin>
+  </custom>
+
+  <body>
+    <links>
+      <item name="Apache" href="http://apache.org/"/>
+      <item name="Logging Services" href="https://logging.apache.org/"/>
+      <item name="Log4j" href="https://logging.apache.org/log4j/2.x/"/>
+    </links>
+
+    <menu name="&lt;i class='icon-home'&gt;&lt;/i&gt; Log4j Boot">
+      <item name="About" href="/index.html"/>
+      <item name="Changes" href="/jira-report.html"/>
+      <item name="Mailing Lists" href="/mail-lists.html"/>
+      <item name="Source Repository" href="/source-repository.html"/>
+      <item name="License" href="/license.html"/>
+    </menu>
+
+    <menu name="&lt;i class='icon-star'&gt;&lt;/i&gt; Core Components">
+      <item name="Core" href="/log4j-boot-core/index.html"/>
+      <item name="Logging API Implementations" href="/log4j-boot-compat/index.html"/>
+      <item name="Async Loggers" href="/log4j-boot-async/index.html"/>
+      <item name="Logback" href="/log4j-boot-logback/index.html"/>
+    </menu>
+
+    <menu name="&lt;i class='icon-search'&gt;&lt;/i&gt; Advertisers">
+      <item name="JMDNS" href="/log4j-boot-advertiser-jmdns/index.html"/>
+    </menu>
+
+    <menu name="&lt;i class='icon-globe'&gt;&lt;/i&gt; Appenders">
+      <item name="ActiveMQ" href="/log4j-boot-appender-activemq/index.html"/>
+      <item name="Async (Conversant)" href="/log4j-boot-appender-async-conversant/index.html"/>
+      <item name="Async (JCTools)" href="/log4j-boot-appender-async-jctools/index.html"/>
+      <item name="Cassandra" href="/log4j-boot-appender-cassandra/index.html"/>
+      <item name="Compress" href="/log4j-boot-appender-compress/index.html"/>
+      <item name="CouchDB" href="/log4j-boot-appender-couchdb/index.html"/>
+      <item name="JMS" href="/log4j-boot-appender-jms/index.html"/>
+      <item name="JPA" href="/log4j-boot-appender-jpa/index.html"/>
+      <item name="Kafka" href="/log4j-boot-appender-kafka/index.html"/>
+      <item name="MongoDB" href="/log4j-boot-appender-mongodb/index.html"/>
+      <item name="SMTP" href="/log4j-boot-appender-smtp/index.html"/>
+      <item name="ZeroMQ" href="/log4j-boot-appender-zeromq/index.html"/>
+    </menu>
+
+    <menu name="&lt;i class='icon-wrench'&gt;&lt;/i&gt; Configuration">
+      <item name="JSON" href="/log4j-boot-config-json/index.html"/>
+      <item name="YAML" href="/log4j-boot-config-yaml/index.html"/>
+    </menu>
+
+    <menu name="&lt;i class='icon-file'&gt;&lt;/i&gt; Layouts">
+      <item name="CSV" href="/log4j-boot-layout-csv/index.html"/>
+      <item name="JANSI" href="/log4j-boot-layout-jansi/index.html"/>
+      <item name="JSON" href="/log4j-boot-layout-json/index.html"/>
+      <item name="XML" href="/log4j-boot-layout-xml/index.html"/>
+      <item name="YAML" href="/log4j-boot-layout-yaml/index.html"/>
+    </menu>
+
+    <menu name="&lt;i class='icon-pencil'&gt;&lt;/i&gt; Scripts">
+      <item name="Groovy" href="/log4j-boot-script-groovy/index.html"/>
+    </menu>
+
+    <menu name="&lt;i class='icon-leaf'&gt;&lt;/i&gt; Spring">
+      <item name="Spring Boot" href="/log4j-boot-spring/index.html"/>
+    </menu>
+
+  </body>
+
+</project>

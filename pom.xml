@@ -102,6 +102,11 @@
     <url>https://git-wip-us.apache.org/repos/asf?p=logging-log4j-boot.git</url>
   </scm>
 
+  <ciManagement>
+    <system>Jenkins</system>
+    <url>https://builds.apache.org/job/Log4jBoot/</url>
+  </ciManagement>
+
   <mailingLists>
     <mailingList>
       <name>log4j-user</name>

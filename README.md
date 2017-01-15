@@ -1,5 +1,7 @@
 # Apache Log4j Boot
 
+[![Build Status](https://builds.apache.org/buildStatus/icon?job=Log4jBoot)](https://builds.apache.org/job/Log4jBoot/)
+
 Log4j Boot is a collection of bootstrapping modules to get up and running with
 various Log4j components. These modules pull in all the necessary dependencies
 to use the various optional features in Log4j.

@@ -61,7 +61,7 @@
     <jctoolsVersion>1.2.1</jctoolsVersion>
     <jeromqVersion>0.3.6</jeromqVersion>
     <jmdnsVersion>3.5.1</jmdnsVersion>
-    <logbackVersion>1.1.8</logbackVersion>
+    <logbackVersion>1.2.0</logbackVersion>
     <kafkaVersion>0.10.1.1</kafkaVersion>
     <mongodbVersion>3.4.1</mongodbVersion>
     <springbootVersion>1.4.3.RELEASE</springbootVersion>
